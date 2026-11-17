@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Przywództwo oparte na sensie - coaching i szkolenia dla zarządów | Anna Burdajewicz</title>
+<meta name="description" content="Anna Burdajewicz - executive coach i trenerka biznesu. Szkolenia dla firm, coaching egzystencjalny i wystąpienia o przywództwie opartym na sensie. Firmy rodzinne, sukcesja, zmiana.">
+<meta name="theme-color" content="#1c252b">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="img/hero-m-760.webp" imagesrcset="img/hero-m-480.webp 480w, img/hero-m-760.webp 760w" imagesizes="100vw" media="(max-width:860px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-1600.webp" imagesrcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2000.webp 2000w" imagesizes="100vw" media="(min-width:861px)" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/manrope-rdzen.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/lora-rdzen.woff2" crossorigin>
+<style>
+@font-face{font-family:"Manrope";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/manrope-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/manrope-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Lora";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/lora-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026}
+@font-face{font-family:"Lora";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/lora-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Manrope-fb";src:local("Arial");size-adjust:104%;ascent-override:102%;descent-override:29%;line-gap-override:0%}
+@font-face{font-family:"Lora-fb";src:local("Georgia");size-adjust:104%;ascent-override:88%;descent-override:24%;line-gap-override:0%}
+:root{--zl:#bc9d55;--zl2:#8a6b2a;--zl3:#a3843f;--ciem:#1c252b;--ink:#1a2126;--mut:#525c63;--g:#f3f4f6;--line:#dde1e5;--hh:66px;--w:min(calc(100vw - 32px),2140px)}
+@media (min-width:861px){:root{--hh:84px;--w:min(91vw,2140px)}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
+body{margin:0;font-family:Manrope,"Manrope-fb",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:clamp(16px,.18vw + 15px,19px);line-height:1.65;color:var(--ink);background:#fff;overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:Lora,"Lora-fb",Georgia,serif;font-weight:600;line-height:1.15;margin:0;letter-spacing:-.005em}
+h2{font-size:clamp(30px,2vw + 16px,54px)}
+h3{font-size:clamp(21px,.6vw + 17px,27px)}
+p{margin:0 0 1em}
+.wrap{width:var(--w);margin:0 auto}
+.btn{display:inline-flex;align-items:center;gap:14px;background:var(--ciem);color:#fff;text-decoration:none;font-weight:700;font-size:16px;letter-spacing:.01em;padding:16px 26px;border:0;cursor:pointer;font-family:inherit;line-height:1.2;transition:background .2s}
+.btn:hover{background:#2c3a43}
+.btn i{width:9px;height:9px;border-radius:50%;background:var(--zl);flex:none}
+.btn.zloty{background:var(--zl);color:#1c252b}
+.btn.zloty i{background:#1c252b}
+.btn.zloty:hover{background:#cfb26c}
+.roza{display:block;width:44px;height:44px;color:var(--zl);margin:0 0 20px}
+.sek{padding:clamp(64px,7vw,130px) 0}
+.sek-g{background:var(--g)}
+.wst{color:var(--mut);max-width:62ch;margin-top:18px}
+/* polkole z logo jako znacznik */
+.pk{list-style:none;margin:0;padding:0}
+.pk li{position:relative;padding:14px 0 14px 34px;border-bottom:1px solid var(--line)}
+.pk li::before{content:"";position:absolute;left:4px;top:calc(14px + .32em);width:9px;height:18px;background:var(--zl);border-radius:0 18px 18px 0}
+
+/* naglowek */
+#top{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid transparent;transition:border-color .2s,box-shadow .2s}
+#top.sc{border-bottom-color:var(--line);box-shadow:0 4px 18px rgba(28,37,43,.06)}
+.bar{height:var(--hh);display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--zl2)}
+.logo svg{width:40px;height:40px;color:var(--zl);flex:none}
+.logo span{font-size:21px;font-weight:600;letter-spacing:.01em;white-space:nowrap}
+@media (min-width:861px){.logo svg{width:48px;height:48px}.logo span{font-size:25px}}
+.menu{display:flex;align-items:center;gap:clamp(16px,1.7vw,34px)}
+.menu a{text-decoration:none;font-weight:600;font-size:16px;position:relative;padding:6px 0;white-space:nowrap}
+.menu a:not(.btn):hover,.menu a.on{color:var(--zl2)}
+.menu a.on::after{content:"";position:absolute;left:50%;bottom:-6px;width:6px;height:6px;margin-left:-3px;border-radius:50%;background:var(--zl)}
+.menu .tel{color:var(--zl2)}
+.menu .btn{padding:12px 20px;font-size:15px}
+#burger{display:none}
+@media (max-width:1240px){
+ #burger{display:flex;align-items:center;justify-content:center;width:46px;height:46px;border:1px solid var(--line);background:#fff;cursor:pointer;padding:0}
+ #burger span{display:block;width:20px;height:2px;background:var(--ink);position:relative}
+ #burger span::before,#burger span::after{content:"";position:absolute;left:0;width:20px;height:2px;background:var(--ink);transition:transform .25s}
+ #burger span::before{top:-6px}#burger span::after{top:6px}
+ #top.open #burger span{background:transparent}
+ #top.open #burger span::before{transform:translateY(6px) rotate(45deg)}
+ #top.open #burger span::after{transform:translateY(-6px) rotate(-45deg)}
+ .menu{position:fixed;left:0;right:0;top:var(--hh);bottom:0;background:#fff;flex-direction:column;align-items:stretch;gap:0;padding:12px 16px 32px;opacity:0;visibility:hidden;transform:translateY(-10px);transition:opacity .25s,transform .25s,visibility .25s;overflow-y:auto;border-top:1px solid var(--line)}
+ #top.open .menu{opacity:1;visibility:visible;transform:none}
+ .menu a{font-size:20px;padding:15px 4px;border-bottom:1px solid var(--line)}
+ .menu a.on::after{display:none}
+ .menu .btn{margin-top:22px;justify-content:center;font-size:17px;padding:17px}
+}
+
+/* hero */
+.hero{position:relative;min-height:calc(100svh - var(--hh));display:flex;align-items:center;overflow:hidden;background:#eceae6}
+.hero-foto{position:absolute;inset:0;margin:0}
+.hero-foto img{width:100%;height:100%;object-fit:cover;object-position:30% 50%}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,255,255,0) 30%,rgba(255,255,255,.55) 52%,rgba(255,255,255,.82) 72%,rgba(255,255,255,.88) 100%)}
+.hero-in{position:relative;z-index:1;width:var(--w);margin:0 auto;display:flex;justify-content:flex-end;padding:56px 0}
+.hero-txt{width:min(46%,820px)}
+.hero h1{font-size:clamp(36px,2.6vw + 14px,78px);margin-bottom:24px;text-wrap:balance}
+.hero .lead{font-size:clamp(17px,.45vw + 15px,23px);line-height:1.55;color:#33404a;max-width:42ch;margin:0 0 34px}
+.hero .pod{display:flex;align-items:center;gap:14px 26px;flex-wrap:wrap}
+.hero .pod a.mail{font-weight:700;color:var(--zl2);text-decoration:none}
+.hero .pod a.mail:hover{text-decoration:underline}
+@media (max-width:860px){
+ .hero{flex-direction:column;align-items:stretch;background:#fff}
+ .hero::after{display:none}
+ .hero-foto{position:relative;inset:auto;flex:1 1 0;min-height:min(70vw,34svh);overflow:hidden}
+ .hero-foto img{position:absolute;inset:0;object-position:50% 18%}
+ .hero-foto::after{content:"";position:absolute;left:0;right:0;bottom:0;height:40px;background:linear-gradient(0deg,#fff,rgba(255,255,255,0))}
+ .hero-in{flex:0 0 auto;padding:12px 0 30px;justify-content:flex-start}
+ .hero-txt{width:100%}
+ .hero .roza{width:34px;height:34px;margin-bottom:12px}
+ .hero h1{font-size:clamp(28px,7.6vw,38px);margin-bottom:14px}
+ .hero .lead{font-size:16.5px;margin-bottom:24px}
+ .hero .pod .mail{display:none}
+}
+@media (max-width:860px) and (max-height:700px){.hero .roza{display:none}.hero h1{font-size:clamp(26px,7vw,31px);margin-bottom:10px}.hero .lead{font-size:15.5px;line-height:1.5;margin-bottom:24px}.hero-in{padding-bottom:22px}}
+
+/* kiedy */
+.kiedy{display:grid;grid-template-columns:minmax(0,1fr);gap:clamp(32px,5vw,110px);align-items:start}
+@media (min-width:960px){.kiedy{grid-template-columns:minmax(0,5fr) minmax(0,7fr)}.kiedy figure{position:sticky;top:calc(var(--hh) + 30px)}}
+.kiedy figure{margin:0}
+.kiedy figure img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:50% 20%}
+.kiedy figure figcaption{font-family:Lora,serif;font-size:clamp(20px,.7vw + 16px,28px);line-height:1.35;margin-top:22px;color:var(--ink)}
+.kiedy figure figcaption::before{content:"";display:block;width:56px;height:2px;background:var(--zl);margin-bottom:18px}
+.kiedy .pk{margin-top:26px}
+.kiedy .pk li{font-size:clamp(17px,.3vw + 16px,21px);padding-top:18px;padding-bottom:18px}
+.kiedy .pk li::before{top:calc(18px + .38em)}
+@media (max-width:959px){.kiedy figure{order:2}}
+
+/* formy wspolpracy */
+.tory{display:grid;grid-auto-flow:column;grid-auto-columns:min(84vw,420px);gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:4px}
+.tory::-webkit-scrollbar{display:none}
+.tory>*{scroll-snap-align:start}
+.tory.drag{scroll-snap-type:none;cursor:grabbing}
+.glowa{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:clamp(30px,3vw,56px)}
+.nav-t{display:flex;gap:10px}
+.nav-t[hidden]{display:none}
+.nav-t button{width:48px;height:48px;border:1px solid #c7ccd1;background:#fff;cursor:pointer;font-size:22px;line-height:1;color:var(--ink)}
+.nav-t button:disabled{opacity:.35;cursor:default}
+@media (min-width:1000px){.formy{grid-auto-flow:row;grid-template-columns:repeat(3,minmax(0,1fr));overflow:visible}.nav-t.t1{display:none}}
+.forma{background:#fff;display:flex;flex-direction:column;min-width:0}
+.forma .fot{aspect-ratio:4/3;overflow:hidden;margin:0}
+.forma .fot img{width:100%;height:100%;object-fit:cover;object-position:50% 25%;transition:transform .6s}
+.forma:hover .fot img{transform:scale(1.03)}
+.forma .tr{padding:clamp(22px,2vw,36px);display:flex;flex-direction:column;flex:1}
+.forma h3{margin-bottom:12px}
+.forma p{color:var(--mut)}
+.forma .pk{margin:4px 0 24px}
+.forma .pk li{font-size:15.5px;padding:10px 0 10px 28px}
+.forma .pk li::before{top:calc(10px + .3em);width:7px;height:14px}
+.forma .lnk{margin-top:auto;font-weight:700;color:var(--zl2);text-decoration:none;display:inline-flex;align-items:center;gap:10px}
+.forma .lnk::after{content:"";width:28px;height:2px;background:var(--zl)}
+.forma .lnk:hover{color:var(--ink)}
+
+/* mocna sekcja */
+.ciem{background:var(--ciem);color:#fff;position:relative;overflow:hidden}
+.ciem .znak{position:absolute;right:-6vw;top:50%;width:min(62vw,860px);height:min(62vw,860px);transform:translateY(-50%);color:var(--zl);opacity:.09;pointer-events:none}
+.rodz{position:relative;display:grid;grid-template-columns:minmax(0,1fr);gap:clamp(36px,5vw,110px);align-items:center}
+@media (min-width:1000px){.rodz{grid-template-columns:minmax(0,7fr) minmax(0,5fr)}}
+.rodz blockquote{margin:0;font-family:Lora,serif;font-size:clamp(28px,2.1vw + 14px,58px);line-height:1.22;font-weight:500}
+.rodz blockquote::before{content:"";display:block;width:64px;height:2px;background:var(--zl);margin-bottom:30px}
+.rodz .opis{color:#c6ced4;margin:28px 0 34px;max-width:56ch}
+.rodz h3{color:var(--zl);font-family:Manrope,sans-serif;font-size:17px;font-weight:700;letter-spacing:.01em;margin-bottom:8px}
+.rodz .pk li{border-bottom-color:rgba(255,255,255,.16);color:#eef1f3;font-size:clamp(16px,.3vw + 15px,19px)}
+
+/* obszary */
+.obsz{display:grid;grid-template-columns:minmax(0,1fr);gap:0 clamp(28px,3vw,60px);border-top:1px solid var(--line)}
+@media (min-width:760px){.obsz{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (min-width:1500px){.obsz{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.obsz article{padding:30px 0 34px;border-bottom:1px solid var(--line)}
+@media (min-width:1500px){.obsz article{border-bottom:0}}
+.obsz h3{display:flex;gap:14px;align-items:baseline;margin-bottom:12px}
+.obsz h3::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--zl);flex:none;transform:translateY(-3px)}
+.obsz p{color:var(--mut);font-size:16px}
+.obsz ul{margin:0;padding:0 0 0 18px;color:var(--ink);font-size:15.5px}
+.obsz li{margin-bottom:8px}
+.obsz li::marker{color:var(--zl)}
+
+/* o mnie */
+.om{display:grid;grid-template-columns:minmax(0,1fr);gap:clamp(32px,5vw,110px);align-items:center}
+@media (min-width:1000px){.om{grid-template-columns:minmax(0,6fr) minmax(0,5fr)}}
+.om figure{margin:0}
+.om figure button,.gal button{all:unset;cursor:zoom-in;display:block;width:100%}
+.om figure img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.om .zap{margin-top:26px}
+.om .zap li{font-size:16px}
+.om .zap b{display:block;font-size:17px}
+.gal{margin-top:clamp(40px,4vw,70px);grid-auto-columns:min(56vw,260px)}
+@media (min-width:1000px){.gal{grid-auto-columns:calc((100% - 5*18px)/6)}}
+.gal img{width:100%;aspect-ratio:3/4;object-fit:cover}
+.gal-p{font-size:14px;color:var(--mut);margin:12px 0 0}
+
+/* kontakt */
+.kon{display:grid;grid-template-columns:minmax(0,1fr);gap:clamp(36px,5vw,110px)}
+@media (min-width:1000px){.kon{grid-template-columns:minmax(0,5fr) minmax(0,6fr)}}
+.dane{margin-top:30px;display:grid;gap:22px}
+.dane div{border-left:2px solid var(--zl);padding-left:18px}
+.dane small{display:block;color:var(--mut);font-size:14px}
+.dane a,.dane b{font-size:clamp(18px,.4vw + 16px,22px);font-weight:700;text-decoration:none;color:var(--ink)}
+.dane a:hover{color:var(--zl2)}
+form{background:var(--g);padding:clamp(24px,3vw,52px)}
+.r2{display:grid;grid-template-columns:minmax(0,1fr);gap:0 18px}
+@media (min-width:600px){.r2{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.pole{display:flex;flex-direction:column;gap:6px;margin:0 0 16px}
+.pole label{font-weight:700;font-size:15px}
+.pole input,.pole select,.pole textarea{font:inherit;font-size:17px;padding:13px 14px;border:1px solid #bfc6cc;background:#fff;width:100%;border-radius:0;color:var(--ink)}
+.pole textarea{min-height:130px;resize:vertical}
+.pole :focus{outline:3px solid rgba(188,157,85,.45);border-color:var(--zl2)}
+.zgoda{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--mut);margin:4px 0 22px;line-height:1.45}
+.zgoda input{width:20px;height:20px;flex:none;margin:1px 0 0;accent-color:var(--zl2)}
+[aria-invalid=true]{border-color:#b3261e!important;outline:2px solid rgba(179,38,30,.25)}
+#msg{margin:16px 0 0;padding:14px 16px;background:#fff;border-left:3px solid var(--zl);font-weight:600;font-size:15px}
+
+/* stopka */
+footer{background:var(--ciem);color:#b8c1c7;padding:clamp(48px,5vw,80px) 0 26px;font-size:15px}
+.st{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 24px}
+@media (min-width:1000px){.st{grid-template-columns:minmax(0,1.4fr) repeat(3,minmax(0,1fr))}}
+.st .s1{grid-column:1/-1}
+@media (min-width:1000px){.st .s1{grid-column:auto}}
+.st .logo{color:var(--zl)}
+.st h4{color:#fff;font-size:16px;margin:0 0 12px}
+.st p{margin:0 0 6px;line-height:1.55}
+.st a{text-decoration:none;overflow-wrap:anywhere}
+.st a:hover{color:#fff;text-decoration:underline}
+.st ul{list-style:none;margin:0;padding:0}
+.st li{margin-bottom:6px}
+.dol{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 24px;align-items:center;border-top:1px solid #303d45;margin-top:40px;padding-top:22px;font-size:14px}
+
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+
+#lb{position:fixed;inset:0;z-index:100;background:rgba(18,24,28,.95);display:none;align-items:center;justify-content:center;padding:56px 12px 64px}
+#lb.otw{display:flex}
+#lb img{max-width:min(1400px,100%);max-height:100%;object-fit:contain}
+#lb p{position:absolute;left:16px;right:16px;bottom:16px;margin:0;color:#dfe3e6;font-size:14px;text-align:center}
+#lb button{position:absolute;background:rgba(255,255,255,.12);color:#fff;border:0;width:48px;height:48px;cursor:pointer;font-size:26px;line-height:1;display:flex;align-items:center;justify-content:center}
+#lb .x{top:10px;right:10px}#lb .p{left:10px;top:50%;margin-top:-24px}#lb .n{right:10px;top:50%;margin-top:-24px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <symbol id="r" viewBox="-50 -50 100 100"><g fill="currentColor">
+  <circle r="9"/>
+  <path id="pd" d="M0-7A7 7 0 0 1 0 7Z"/>
+  <use href="#pd" transform="translate(-7 -36)"/><use href="#pd" transform="translate(3 -36)"/>
+  <use href="#pd" transform="rotate(45) translate(-3 -36) rotate(90)"/>
+  <path d="M28-7h16l-8 7zM28 7h16l-8-7z"/>
+  <use href="#pd" transform="rotate(135) translate(0 -36) rotate(-90)"/>
+  <use href="#pd" transform="translate(7 36) rotate(180)"/><use href="#pd" transform="translate(-3 36) rotate(180)"/>
+  <use href="#pd" transform="rotate(225) translate(0 -36) rotate(-90)"/>
+  <path d="M-44-8v16l8-8zM-28-8v16l-8-8z"/>
+  <use href="#pd" transform="rotate(315) translate(-3 -36) rotate(90)"/>
+ </g></symbol>
+</svg>
+<header id="top">
+ <div class="wrap bar">
+  <a class="logo" href="#start" aria-label="Anna Burdajewicz - strona główna"><svg aria-hidden="true"><use href="#r"/></svg><span>Anna Burdajewicz</span></a>
+  <nav class="menu" aria-label="Menu główne">
+   <a href="#wspolpraca">Współpraca</a>
+   <a href="#rodzinne">Firmy rodzinne</a>
+   <a href="#obszary">Szkolenia</a>
+   <a href="#o-mnie">O mnie</a>
+   <a class="tel" href="#kontakt">664 426 648</a>
+   <a class="btn" href="#kontakt"><i></i>Kontakt</a>
+  </nav>
+  <button id="burger" aria-label="Otwórz menu" aria-expanded="false"><span></span></button>
+ </div>
+</header>
+
+<main id="start">
+<section class="hero" aria-labelledby="h1">
+ <figure class="hero-foto">
+  <picture>
+   <source media="(max-width:860px)" srcset="img/hero-m-480.webp 480w, img/hero-m-760.webp 760w" sizes="100vw">
+   <img src="img/hero-1600.webp" srcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2000.webp 2000w" sizes="100vw" width="2000" height="1501" alt="Anna Burdajewicz w jasnym salonie, z laptopem na sofie" fetchpriority="high">
+  </picture>
+ </figure>
+ <div class="hero-in">
+  <div class="hero-txt">
+   <svg class="roza" aria-hidden="true"><use href="#r"/></svg>
+   <h1 id="h1">Przywództwo oparte na sensie - dla właścicieli i&nbsp;zarządów firm</h1>
+   <p class="lead">Pomagam firmom, zespołom i liderom odzyskiwać sens, kierunek, zaangażowanie i skuteczność, gdy dotychczasowe sposoby zarządzania przestają wystarczać.</p>
+   <div class="pod"><a class="btn" href="#kontakt"><i></i>Zaproś mnie do swojej firmy</a><a class="mail" href="#kontakt">info@annaburdajewicz.pl</a></div>
+  </div>
+ </div>
+</section>
+
+<section class="sek" id="kiedy" aria-labelledby="h-kiedy">
+ <div class="wrap kiedy">
+  <figure>
+   <img src="img/p-portret-600.webp" srcset="img/p-portret-600.webp 600w, img/p-portret-1000.webp 1000w" sizes="(min-width:960px) 38vw,100vw" width="600" height="800" alt="Anna Burdajewicz w czarnej marynarce" loading="lazy">
+   <figcaption>Sens i poczucie znaczenia nie jest dodatkiem do skuteczności. Jest jej źródłem.</figcaption>
+  </figure>
+  <div>
+   <svg class="roza" aria-hidden="true"><use href="#r"/></svg>
+   <h2 id="h-kiedy">Firmy zatrudniają mnie, gdy</h2>
+   <p class="wst">Pracuję tam, gdzie dotychczasowy sposób zarządzania przestaje wystarczać - z właścicielami, zarządami i zespołami.</p>
+   <ul class="pk">
+    <li>dotychczasowy model przywództwa przestaje wystarczać do kolejnego etapu rozwoju firmy,</li>
+    <li>ludzie wykonują zadania, ale przestają widzieć sens i znaczenie swojej pracy,</li>
+    <li>odpowiedzialność jest skupiona na górze, zamiast być realnie przejmowana przez zespół,</li>
+    <li>strategia jest jasna, ale nie przekłada się na codzienne decyzje i zachowania ludzi,</li>
+    <li>firma wchodzi w sukcesję, restrukturyzację, M&amp;A lub inną zmianę o wysokiej stawce,</li>
+    <li>trzeba przeprowadzić ludzi przez zmianę bez utraty kluczowych osób i zaangażowania,</li>
+    <li>liderzy podejmują trudne decyzje pod presją wyniku i czasu, a proste odpowiedzi się skończyły,</li>
+    <li>organizacja potrzebuje nie kolejnego utartego szkolenia, ale realnej zmiany jakości przywództwa.</li>
+   </ul>
+  </div>
+ </div>
+</section>
+
+<section class="sek sek-g" id="wspolpraca" aria-labelledby="h-wsp">
+ <div class="wrap">
+  <div class="glowa">
+   <div><svg class="roza" aria-hidden="true"><use href="#r"/></svg><h2 id="h-wsp">Trzy formy współpracy</h2><p class="wst">Łączę perspektywę biznesową z egzystencjalnym spojrzeniem na człowieka, przywództwo i organizację.</p></div>
+   <div class="nav-t t1" data-nav="tor-f"><button data-k="-1" aria-label="Poprzednie">&#8592;</button><button data-k="1" aria-label="Następne">&#8594;</button></div>
+  </div>
+  <div class="tory formy" id="tor-f" data-tor>
+   <article class="forma">
+    <figure class="fot"><img src="img/p-stol-600.webp" srcset="img/p-stol-600.webp 600w, img/p-stol-1000.webp 1000w" sizes="(min-width:1000px) 30vw,84vw" width="600" height="800" alt="Anna Burdajewicz przy stoliku w salonie" loading="lazy"></figure>
+    <div class="tr">
+     <h3>Szkolenia dla firm</h3>
+     <p>Rozwijam kompetencje menedżerskie i przywódcze, które przekładają się na komunikację, odpowiedzialność, zaangażowanie i wyniki.</p>
+     <ul class="pk"><li>warsztaty i szkolenia biznesowe</li><li>akademie menedżerskie i programy rozwoju przywództwa</li><li>team coaching i rozwój zespołów zarządzających</li></ul>
+     <a class="lnk" href="#kontakt">Zaproś mnie do firmy</a>
+    </div>
+   </article>
+   <article class="forma">
+    <figure class="fot"><img src="img/p-biala-600.webp" srcset="img/p-biala-600.webp 600w, img/p-biala-1000.webp 1000w" sizes="(min-width:1000px) 30vw,84vw" width="600" height="800" alt="Anna Burdajewicz w białym garniturze na sofie" loading="lazy"></figure>
+    <div class="tr">
+     <h3>Coaching egzystencjalny</h3>
+     <p>Dla High Performers - osób o wysokiej odpowiedzialności, którym nie wystarczają już kolejne cele, strategie i narzędzia.</p>
+     <ul class="pk"><li>spotkania indywidualne 1:1 w poufnej przestrzeni</li><li>praca wysokiej koncentracji, bez szybkich rozwiązań</li><li>indywidualny rytm spotkań</li></ul>
+     <a class="lnk" href="#kontakt">Porozmawiajmy o coachingu</a>
+    </div>
+   </article>
+   <article class="forma">
+    <figure class="fot"><img src="img/p-kominek-600.webp" srcset="img/p-kominek-600.webp 600w, img/p-kominek-1000.webp 1000w" sizes="(min-width:1000px) 30vw,84vw" width="600" height="800" alt="Anna Burdajewicz przy kominku" loading="lazy"></figure>
+    <div class="tr">
+     <h3>Wystąpienia i wykłady</h3>
+     <p>Keynote na konferencjach, wystąpienia dla izb gospodarczych i środowisk branżowych, wykłady dla MBA i Executive MBA.</p>
+     <ul class="pk"><li>Meaning-Centered Leadership - sens jako kompetencja przywódcza</li><li>Sukces bez spełnienia. Paradoks High Performersów</li><li>AI zmienia pracę. Czy zmieni również sens przywództwa?</li></ul>
+     <a class="lnk" href="#kontakt">Zaproś mnie na wykład</a>
+    </div>
+   </article>
+  </div>
+ </div>
+</section>
+
+<section class="sek ciem" id="rodzinne" aria-labelledby="h-rodz">
+ <svg class="znak" aria-hidden="true"><use href="#r"/></svg>
+ <div class="wrap rodz">
+  <div>
+   <h2 id="h-rodz" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Firmy rodzinne i sukcesja</h2>
+   <blockquote>Ciągłość firmy rodzinnej buduje się nie tylko kapitałem, ale zdolnością ludzi do przechodzenia przez zmianę, władzę i odpowiedzialność.</blockquote>
+   <p class="opis">Pracuję z właścicielami i zarządami firm rodzinnych w momentach przejścia: przy sukcesji, transformacji i redefinicji przyszłości firmy - tak, by zmiana nie kosztowała kluczowych ludzi ani zdolności operacyjnej.</p>
+   <a class="btn zloty" href="#kontakt"><i></i>Porozmawiajmy o Twojej firmie</a>
+  </div>
+  <div>
+   <h3>Tematy, z którymi przychodzą firmy rodzinne</h3>
+   <ul class="pk">
+    <li>Psychologia sukcesji w firmach rodzinnych</li>
+    <li>Firma większa niż jej założyciel - legacy i odpowiedzialność</li>
+    <li>Psychologia władzy, kontroli i delegowania odpowiedzialności</li>
+    <li>Przywództwo w niepewności, kryzysie i transformacji</li>
+    <li>Przeciążenie i wypalenie liderów przy wysokiej presji</li>
+   </ul>
+  </div>
+ </div>
+</section>
+
+<section class="sek" id="obszary" aria-labelledby="h-obsz">
+ <div class="wrap">
+  <div class="glowa"><div><svg class="roza" aria-hidden="true"><use href="#r"/></svg><h2 id="h-obsz">Obszary szkoleniowe</h2><p class="wst">Pracuję z ludźmi i zespołami nie tylko nad kompetencjami, ale też nad przekonaniami, postawami i rozumieniem swojej roli.</p></div></div>
+  <div class="obsz">
+   <article><h3>Meaning-Centered Leadership</h3><p>Przywództwo oparte na sensie, w którym skuteczność łączy się z odpowiedzialnością.</p><ul><li>Od kontroli do odpowiedzialności</li><li>Dojrzałość przywódcza i integralność</li><li>Od osobistego sukcesu do trwałego wpływu</li></ul></article>
+   <article><h3>Zmiana i sytuacje wysokiej stawki</h3><p>Prowadzenie ludzi przez reorganizację, sukcesję, restrukturyzację i strategiczne zwroty.</p><ul><li>Opór wobec zmiany - co za nim stoi</li><li>Przywództwo w kryzysie</li><li>Zaangażowanie w procesach transformacji</li></ul></article>
+   <article><h3>Odporność psychiczna pracowników</h3><p>Wewnętrzna stabilność i skuteczność pod presją, w niepewności i przy wysokich wymaganiach.</p><ul><li>Zarządzanie stresem i emocjami</li><li>Przeciwdziałanie wypaleniu</li><li>Sens jako źródło odporności</li></ul></article>
+   <article><h3>Kompetencje menedżerskie</h3><p>Od zarządzania zadaniami do świadomego budowania odpowiedzialności i zaangażowania.</p><ul><li>Od delegowania do egzekwowania</li><li>Zarządzanie bez mikrozarządzania</li><li>Trudne rozmowy: feedback, rozliczanie</li></ul></article>
+  </div>
+ </div>
+</section>
+
+<section class="sek sek-g" id="o-mnie" aria-labelledby="h-om">
+ <div class="wrap">
+  <div class="om">
+   <figure data-grupa><button data-lb="img/p-lustro-1400.webp" aria-label="Powiększ zdjęcie"><img src="img/p-lustro-800.webp" srcset="img/p-lustro-800.webp 800w, img/p-lustro-1400.webp 1400w" sizes="(min-width:1000px) 50vw,100vw" width="800" height="600" alt="Anna Burdajewicz w białej marynarce, odbita w lustrze" loading="lazy"></button></figure>
+   <div>
+    <svg class="roza" aria-hidden="true"><use href="#r"/></svg>
+    <h2 id="h-om">Widzę to, co niewidoczne</h2>
+    <p class="wst">Nazywam się Anna Burdajewicz. Jestem executive coachem, team coachem i trenerką biznesu, z wykształcenia prawniczką. Pracuję na poziomie, który rzadko bywa adresowany w biznesie - tam, gdzie kształtują się ukryte mechanizmy wpływające na wyniki, decyzje i odpowiedzialność.</p>
+    <ul class="pk zap">
+     <li><b>Ponad 20 lat praktyki biznesowej</b>własny biznes doradczo-szkoleniowy i lata w międzynarodowych zespołach prawnych</li>
+     <li><b>Wykształcenie</b>SWPS, Uniwersytet Jagielloński, Politechnika Krakowska, Akademia Psychologii Przywództwa Jacka Santorskiego przy Szkole Biznesu PW</li>
+     <li><b>Certyfikowany coach i team coach</b>z międzynarodową akredytacją szkoleniową „Train the Trainer”</li>
+     <li><b>Stowarzyszenie SAAMBA</b>społeczność MBA przy Szkole Biznesu Politechniki Warszawskiej</li>
+    </ul>
+   </div>
+  </div>
+  <div class="tory gal" id="tor-g" data-tor data-grupa>
+   <button data-lb="img/p-fotel-1000.webp"><img src="img/p-fotel-600.webp" width="600" height="800" alt="Anna Burdajewicz na fotelu" loading="lazy"></button>
+   <button data-lb="img/p-usmiech-1000.webp"><img src="img/p-usmiech-600.webp" width="600" height="800" alt="Anna Burdajewicz uśmiechnięta" loading="lazy"></button>
+   <button data-lb="img/p-pioro-1000.webp"><img src="img/p-pioro-600.webp" width="600" height="800" alt="Anna Burdajewicz z piórem w dłoni" loading="lazy"></button>
+   <button data-lb="img/p-laptop-1000.webp"><img src="img/p-laptop-600.webp" width="600" height="800" alt="Anna Burdajewicz z laptopem" loading="lazy"></button>
+   <button data-lb="img/p-sciana-1000.webp"><img src="img/p-sciana-600.webp" width="600" height="800" alt="Anna Burdajewicz przy białej ścianie" loading="lazy"></button>
+   <button data-lb="img/p-stoi-1000.webp"><img src="img/p-stoi-600.webp" width="600" height="800" alt="Anna Burdajewicz w salonie" loading="lazy"></button>
+  </div>
+  <p class="gal-p">Zdjęcia: Monika Waśko</p>
+ </div>
+</section>
+
+<section class="sek" id="kontakt" aria-labelledby="h-kon">
+ <div class="wrap kon">
+  <div>
+   <svg class="roza" aria-hidden="true"><use href="#r"/></svg>
+   <h2 id="h-kon">Zaproś mnie do swojej firmy</h2>
+   <p class="wst">Napisz kilka zdań o firmie i sytuacji, z którą się mierzycie. Odpowiem i zaproponuję formę współpracy.</p>
+   <div class="dane">
+    <div><small>E-mail</small><a href="#kontakt">info@annaburdajewicz.pl</a></div>
+    <div><small>Telefon</small><a href="#kontakt">664 426 648</a></div>
+    <div><small>Dane firmy</small><b style="font-size:17px">Anna Burdajewicz Nowa Świadomość</b><br><span style="color:var(--mut);font-size:15px">NIP 678 303 74 58</span></div>
+   </div>
+  </div>
+  <form id="form" novalidate>
+   <div class="r2">
+    <div class="pole"><label for="f1">Imię i nazwisko</label><input id="f1" required autocomplete="name"></div>
+    <div class="pole"><label for="f2">Firma</label><input id="f2" autocomplete="organization"></div>
+    <div class="pole"><label for="f3">E-mail</label><input id="f3" type="email" required autocomplete="email"></div>
+    <div class="pole"><label for="f4">Telefon</label><input id="f4" type="tel" autocomplete="tel"></div>
+   </div>
+   <div class="pole"><label for="f5">Czego dotyczy zapytanie</label><select id="f5"><option>Szkolenia dla firmy</option><option>Coaching egzystencjalny</option><option>Wystąpienie lub wykład</option><option>Firma rodzinna i sukcesja</option></select></div>
+   <div class="pole"><label for="f6">Wiadomość</label><textarea id="f6" required></textarea></div>
+   <label class="zgoda"><input type="checkbox" required> Zgadzam się na przetwarzanie moich danych w celu odpowiedzi na zapytanie.</label>
+   <button class="btn" type="submit"><i></i>Wyślij zapytanie</button>
+   <p id="msg" hidden>To podgląd - na docelowej stronie wiadomość trafi od razu na info@annaburdajewicz.pl.</p>
+  </form>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="wrap">
+  <div class="st">
+   <div class="s1"><a class="logo" href="#start"><svg aria-hidden="true"><use href="#r"/></svg><span>Anna Burdajewicz</span></a><p style="margin-top:16px;max-width:36ch">Przywództwo oparte na sensie. Szkolenia, coaching i wystąpienia dla firm.</p></div>
+   <div><h4>Współpraca</h4><ul><li><a href="#wspolpraca">Szkolenia dla firm</a></li><li><a href="#wspolpraca">Coaching egzystencjalny</a></li><li><a href="#wspolpraca">Wystąpienia i wykłady</a></li><li><a href="#rodzinne">Firmy rodzinne</a></li></ul></div>
+   <div><h4>Kontakt</h4><p><a href="#kontakt">info@annaburdajewicz.pl</a><br><a href="#kontakt">664 426 648</a></p><p>NIP 678 303 74 58</p></div>
+   <div><h4>Informacje</h4><ul><li><a href="#start">Polityka prywatności</a></li><li><a href="#start">Regulamin sprzedaży</a></li><li><a href="#start">Regulamin newslettera</a></li></ul></div>
+  </div>
+  <div class="dol"><span>© <span id="rok">2026</span> Anna Burdajewicz · Zdjęcia: Monika Waśko</span><a class="wylinka-badge" href="https://wylinka.pl/?utm_source=annaburdajewicz.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a></div>
+ </div>
+</footer>
+
+<div id="lb" role="dialog" aria-modal="true" aria-label="Powiększone zdjęcie"><img alt=""><p></p><button class="x" aria-label="Zamknij">&times;</button><button class="p" aria-label="Poprzednie">&#8249;</button><button class="n" aria-label="Następne">&#8250;</button></div>
+<script src="app.js" defer></script>
+</body>
+</html>
